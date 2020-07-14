@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="row">
           <h2>
             <div className="line">
-              <span>Crating unique brand is</span>
+              <span>Unique style is</span>
             </div>
             <div className='line'>
               <span>what we do.</span>
@@ -16,7 +16,7 @@ const Banner = () => {
           </h2>
           <div className="btn-row">
             <a href="/">
-              More abouyt us <RightArrow />
+              More about us <RightArrow />
             </a>
           </div>
         </div>

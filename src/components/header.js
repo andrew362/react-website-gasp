@@ -134,7 +134,7 @@ const Header = ({ history, dimensions }) => {
       <div className="container">
         <div className="row v-center space-between">
           <div className="logo">
-            <NavLink to="/">AGENCY</NavLink>
+            <NavLink to="/">MyLogo</NavLink>
           </div>
           <div className="nav-toggle">
             <div onClick={() => setMenuState(true)} className="hamburger-menu">

@@ -15,8 +15,8 @@ const Navigation = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/approach" exact>
-                  Approach
+                <NavLink to="/gallery" exact>
+                  Gallery
                 </NavLink>
               </li>
             </ul>
@@ -31,16 +31,6 @@ const Navigation = () => {
                     Get in touch
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/contact" exact>
-                    Get in touch
-                  </NavLink>
-                </li>
-              </ul>
-              <ul className="nav-info">
-                <li className="nav-info-label">Headquoter</li>
-                <li>Warsaw</li>
-                <li>Cracow</li>
               </ul>
               <ul className="nav-info">
                 <li className="nav-info-label">Phone</li>

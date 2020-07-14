@@ -53,6 +53,10 @@
             &:hover {
                 .case-image {
                     opacity: 0.4;
+
+                    img {
+                        transform: scale(1.05) !important;
+                    }
                 }
             }
 
@@ -82,10 +86,12 @@
                     opacity: .8;
                     color: $white;
                     font-weight: 600;
-                    @include media ('<=desktop', '>tablet'){
+
+                    @include media ('<=desktop', '>tablet') {
                         font-size: 1.4rem;
                     }
-                    @include media ('<=phone'){
+
+                    @include media ('<=phone') {
                         font-size: 1.2rem;
                         line-height: 2.2rem;
                     }
@@ -97,7 +103,8 @@
                     margin-top: 16px;
                     width: 85%;
                     color: $white;
-                    @include media ('<=phone'){
+
+                    @include media ('<=phone') {
                         font-size: 1.7rem;
                         line-height: 2.2rem;
                         margin-top: 8px;
@@ -113,12 +120,14 @@
                 overflow: hidden;
                 position: absolute;
                 opacity: 0.65;
-                transition: .4s cubic-bezier(0.6, -0.08, 0.1, 0.99);
+                transition: .6s cubic-bezier(0.6, -0.08, 0.1, 0.99);
+
                 img {
                     object-fit: cover;
                     width: 100%;
-                    height: auto;
-                    transform: scale(1.05);
+                    height: 100%;
+                    transform: scale(1.0);
+                    transition: transform 600ms ease-in-out;
                 }
             }
         }

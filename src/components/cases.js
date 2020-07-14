@@ -3,9 +3,9 @@ import { ReactComponent as CasesNext } from '../assets/arrow-right.svg';
 import { ReactComponent as CasesPrev } from '../assets/arrow-left.svg';
 
 const caseStudies = [
-  { id: 1, subtitle: 'Curology1', title: 'Lorem ipsum...', img: 'curology-min' },
-  { id: 2, subtitle: 'Curology2', title: 'Lorem ipsum...', img: 'yourspace-min' },
-  { id: 3, subtitle: 'Curology3', title: 'Lorem ipsum...', img: 'lumin-min' },
+  { id: 1, subtitle: 'Hair', title: 'Lorem ipsum...', img: 'george' },
+  { id: 2, subtitle: 'Beauty', title: 'Lorem ipsum...', img: 'kareya' },
+  { id: 3, subtitle: 'Style', title: 'Lorem ipsum...', img: 'oladimeji' },
 ];
 
 const Cases = () => {
@@ -28,7 +28,7 @@ const Cases = () => {
                   <h2>{caseItem.title}</h2>
                 </div>
                 <div className="case-image">
-                  <img src={require(`../assets/${caseItem.img}.png`)} alt={caseItem.title} />
+                  <img src={require(`../assets/${caseItem.img}.jpg`)} alt={caseItem.title} />
                 </div>
               </div>
             ))}

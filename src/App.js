@@ -9,13 +9,13 @@ import Navigation from './components/navigation';
 //pages
 import Home from './pages/home';
 import About from './pages/about';
-import Approach from './pages/approach';
+import Gallery from './pages/gallery';
 import { useState } from 'react';
 
 const routes = [
   { path: '/', name: 'Home', Component: Home },
   { path: '/about', name: 'About', Component: About },
-  { path: '/approach', name: 'Approach', Component: Approach },
+  { path: '/gallery', name: 'Gallery', Component: Gallery },
 ];
 
 function App() {
