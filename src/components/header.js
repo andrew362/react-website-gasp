@@ -127,7 +127,7 @@ const Header = ({ history, dimensions }) => {
           },
         });
     }
-  }, [menuState]);
+  }, [menuState, dimensions.height, dimensions.width]);
 
   return (
     <div className="header">
